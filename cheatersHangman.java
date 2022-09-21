@@ -4,7 +4,7 @@ import java.io.*;
 
 public class cheatersHangman {
     public static int wrongGuesses=0;
-
+    public static int wrongGuessese=0;
     public static Map<Integer, List<String>> createWordLists() throws FileNotFoundException {
 
         Scanner scanner = new Scanner(new File("word.txt"));
